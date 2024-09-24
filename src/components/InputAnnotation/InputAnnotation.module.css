@@ -1,0 +1,14 @@
+.annotation {
+  padding-top: 8px;
+  display: flex;
+  font-family: 'Inter', sans-serif;
+  font-size: 12px;
+}
+
+.error {
+  color: #d92d20;
+}
+
+.disabled {
+  color: #d1d1d6;
+}

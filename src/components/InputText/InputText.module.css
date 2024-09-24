@@ -1,0 +1,127 @@
+/* Input */
+
+.input {
+  border: 1px solid #d1d1d6;
+  border-radius: 4px;
+  font-weight: 400;
+  color: #1a1a1e;
+  width: 240px;
+  max-width: 240px;
+  min-width: 64px;
+  padding-left: 40px;
+  box-sizing: border-box;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.input::placeholder {
+  color: #70707b;
+}
+
+.input:focus {
+  box-shadow: 0px 0px 0px 4px rgba(46, 144, 250, 0.24);
+  outline: none;
+}
+
+.inputContainer {
+  position: relative;
+  width: 245px;
+}
+
+.iconBefore,
+.iconAfter {
+  width: 16px;
+  height: 16px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  pointer-events: none;
+}
+
+.iconBefore {
+  left: 10px;
+}
+
+.iconAfter {
+  right: 13px;
+}
+
+.inputWithIconBefore {
+  padding-left: 35px !important;
+}
+
+.inputWithIconAfter {
+  padding-right: 35px !important;
+}
+
+/* Alignment */
+
+.alignmentRight {
+  text-align: right;
+}
+
+/* Disabled */
+
+.input:disabled {
+  color: #d1d1d6;
+  cursor: not-allowed;
+}
+
+/* Size */
+
+.size-24 {
+  font-size: 12px;
+  padding: 2px 12px;
+}
+
+.size-32 {
+  padding: 6px 12px;
+  font-size: 12px;
+}
+
+.size-36 {
+  padding: 8px 12px;
+  font-size: 12px;
+}
+
+.size-40 {
+  padding: 8px 16px;
+  font-size: 14px;
+}
+
+.size-44 {
+  padding: 10px 16px;
+  font-size: 14px;
+}
+
+.size-48 {
+  padding: 12px 16px;
+  font-size: 14px;
+}
+
+/* Variants */
+
+.input-fill {
+  background-color: transparent;
+}
+
+.input-outline {
+  background-color: #f0f0f0;
+}
+
+/* Quiet */
+
+.input.quiet {
+  border: none;
+}
+
+/* Error */
+
+.error {
+  border-color: #fda29b !important;
+}
+
+.error:focus {
+  box-shadow: 0px 0px 0px 4px rgba(240, 68, 56, 0.24);
+}

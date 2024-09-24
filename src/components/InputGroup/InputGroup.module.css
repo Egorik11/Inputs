@@ -1,0 +1,13 @@
+.inputGroup {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 16px;
+}
+
+.inputGroup .inputLabel {
+  margin-bottom: 4px;
+}
+
+.inputGroup .inputText {
+  margin-bottom: 4px;
+}
